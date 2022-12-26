@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "name": "Potato",
+            "category": "Food",
+            "price": 2.50,
+            "quantity": 50,
+            "imageURL": "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg"
+        }
+    ]
+}
