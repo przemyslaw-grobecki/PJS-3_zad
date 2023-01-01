@@ -6,6 +6,34 @@
             "price": 2.50,
             "quantity": 50,
             "imageURL": "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg"
+        },
+        {
+            "name": "Tomato",
+            "category": "Food",
+            "price": 3.60,
+            "quantity": 70,
+            "imageURL": "https://images.pexels.com/photos/96616/pexels-photo-96616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "name": "Strawberry",
+            "category": "Food",
+            "price": 4.5,
+            "quantity": 160,
+            "imageURL": "https://images.pexels.com/photos/1788912/pexels-photo-1788912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "name": "Raspberry",
+            "category": "Food",
+            "price": 5.5,
+            "quantity": 120,
+            "imageURL": "https://images.pexels.com/photos/3429782/pexels-photo-3429782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "name": "Watermelon",
+            "category": "Food",
+            "price": 10,
+            "quantity": 11,
+            "imageURL": "https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
     ]
 }

@@ -26,12 +26,26 @@ app.get('/products', async (req, res) => {
     );
 });
 
-app.post('/authenticate', (req, res) => {
-
+app.post('/products/buy', async (req, res) => {
+    console.log(req.body.basket);
+    console.log(req.params);
+    if (req.body.basket.length !== 0) {
+        try{
+            req.body.basket.forEach(product => {
+                buyProduct(product._id, product.quantity);
+            });
+            res.status(201).send("Succesfully bought in PrzemekShop");
+        } catch( err ) {
+            res.status(500).send(err.message);
+        }
+    }
+    else {
+        res.status(500).send({
+            "ErrorMessage": "You need to specify how much You would like to buy {quantity: {amount}}"
+        });
+    }
 });
 
-app.post('/products/:productId', (req, res) => {
-    console.log(req.body)
-    const id = req.params;
-    res.status(201).send()
-});
+const buyProduct = async (productId, quantity) => {
+    await Product.findByIdAndUpdate({ _id: productId }, { "$inc": { quantity: -quantity } });
+}
