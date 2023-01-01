@@ -8,3 +8,5 @@ Before that You can populate database with
 
 Provide an endpoint for the server in clients config.json and run the app on localhost using
 `npm run dev`
+
+![image](https://user-images.githubusercontent.com/66923772/210185856-8ac484fc-da00-4b2c-9391-1ddcf198cbb7.png)
